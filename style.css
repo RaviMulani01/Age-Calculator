@@ -62,3 +62,14 @@ button:hover {
   margin-top: 20px;
   font-size: 18px;
 }
+
+/* Add these styles to your existing style.css file or create a new one */
+input[type="date"] {
+  appearance: none;
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
