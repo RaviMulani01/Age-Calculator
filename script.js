@@ -19,3 +19,7 @@ function calculateAge() {
 
     resultElement.innerHTML = `You are ${age.years} years, ${age.months} months, and ${Math.floor(age.days)} days old.`;
 }
+
+document.getElementById("birthdate").max = new Date()
+.toISOString()
+.split("T")[0];
