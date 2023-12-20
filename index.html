@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <h1>Age Calculator</h1>
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" id="birthdate" required /> <br />
+        <button onclick="calculateAge()">Calculate Age</button>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
